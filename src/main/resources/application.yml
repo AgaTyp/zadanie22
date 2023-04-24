@@ -1,0 +1,16 @@
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.poczta.onet.pl
+    username: aga_test@op.pl
+    password: ***********
+    port: 465
+    properties:
+      mail:
+        smtp:
+          auth: true
+          ssl.enable: true
+#          starttls:
+#            enable: true
+#    protocol: imap
+    test-connection: false

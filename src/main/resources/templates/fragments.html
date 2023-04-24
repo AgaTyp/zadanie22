@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pl" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Fragmenty</title>
+</head>
+<body>
+<header th:fragment="header">
+  <h1>Sklep komputerowy</h1>
+  <a href="/">Strona główna</a>
+  <a href="/contact">Formularz kontaktowy</a>
+  <a href="/shipping">Dostawa i płatność</a>
+</header>
+<footer th:fragment="footer">
+  Mój sklep komputerowy &copy;2023
+</footer>
+</body>
+</html>

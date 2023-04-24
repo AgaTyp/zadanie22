@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://ultraq.net.nz.thymeleaf/layout"
+      layout:decorate="~{layout}">
+<head>
+<!--  <meta charset="UTF-8">-->
+  <title>Dostawa</title>
+</head>
+<body>
+
+<main layout:fragment="mainContent">
+  <h2>Możliwe formy dostawy</h2>
+  <p>
+  <table>
+    <thead>
+    <tr id="headings">
+      <td>Sposób dostawy</td>
+      <td>Sposób płatności</td>
+      <td>Cena</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>Paczkomat</td>
+      <td>przelew</td>
+      <td>10 zł</td>
+    </tr>
+    <tr>
+      <td>Paczkomat</td>
+      <td>pobranie</td>
+      <td>20 zł</td>
+    </tr>
+    <tr>
+      <td>Odbiór osobisty</td>
+      <td>przelew</td>
+      <td>za darmo</td>
+    </tr>
+    <tr>
+      <td>Odbiór osobisty</td>
+      <td>płatność na miejscu</td>
+      <td>za darmo</td>
+    </tr>
+    </tbody>
+  </table>
+  </p>
+</main>
+
+</body>
+</html>
